@@ -1,0 +1,72 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+.contentctn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 37px;
+    width: 285px;
+}
+
+img{
+
+    border-radius: 10px 0px 0px 10px;
+    height: 350px;
+    padding-top: 4px;
+    width: 254px;
+
+}
+
+.header1ctn{
+
+}
+
+.header2ctn{
+
+}
+
+.paragraphctn{
+
+    margin-inline: 36px;
+
+
+}
+
+.pricingctn{
+
+}
+
+button{
+    
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 182px;
+    height: 35px;
+    border: unset;
+    border-radius: 5px;
+
+}
