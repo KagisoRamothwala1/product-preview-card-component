@@ -41,6 +41,14 @@ img{
 
 }
 
+.hero {
+    background-image: url('desktop.jpg');
+    border-radius: 10px 0px 0px 10px;
+    height: 350px;
+    padding-top: 4px;
+    width: 254px;
+}
+
 .header1ctn{
     padding-right: 139px;
     padding-left: 21px;
@@ -105,16 +113,39 @@ button:hover {
     background-color: hsl(158, 36%, 37%);
 }
 
-@media only screen and (max-width:1440px) {
-    .maincontainer{
-
-    }
-
-    .img {
-    border-radius: 10px 10px 0px 0px;
-    height: 350px;
-    padding-top: 4px;
-    width: 284px;
+.attribution{
+    padding-top: 5px;
 }
-        
+
+@media only screen and (max-width:1440px) {
+    img{
+    border-radius: 10px 10px 0px 0px;
+    height: 309px;
+    padding-top: 0px;
+    width: 284.6px;
+  }
+
+  
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 609px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
     }
+
+    .contentctn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    width: 285px;
+    padding-bottom: 16px;
+    }
+    
+}
+    
